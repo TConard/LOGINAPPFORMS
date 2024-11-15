@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E15BD7AE-654D-4B48-A683-46C95A4A0E08}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LoginAppForms2</RootNamespace>
+    <AssemblyName>LoginAppForms2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewVendorInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewVendorInfo.Designer.cs">
+      <DependentUpon>NewVendorInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewVendorInfoData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewVendorInfoData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NewVendorInfoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewVendorInfoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs" />
+    <Compile Include="VendorInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VendorInfo.Designer.cs">
+      <DependentUpon>VendorInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VendorInfo2Data.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VendorInfo2Data.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VendorLoginDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VendorLoginDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewVendorInfo.resx">
+      <DependentUpon>NewVendorInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SignUp.resx" />
+    <EmbeddedResource Include="VendorInfo.resx">
+      <DependentUpon>VendorInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="NewVendorInfoData.xsc">
+      <DependentUpon>NewVendorInfoData.xsd</DependentUpon>
+    </None>
+    <None Include="NewVendorInfoData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NewVendorInfoData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NewVendorInfoData.xss">
+      <DependentUpon>NewVendorInfoData.xsd</DependentUpon>
+    </None>
+    <None Include="NewVendorInfoDataSet.xsc">
+      <DependentUpon>NewVendorInfoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NewVendorInfoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NewVendorInfoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NewVendorInfoDataSet.xss">
+      <DependentUpon>NewVendorInfoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="VendorInfo2Data.xsc">
+      <DependentUpon>VendorInfo2Data.xsd</DependentUpon>
+    </None>
+    <None Include="VendorInfo2Data.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VendorInfo2Data.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="VendorInfo2Data.xss">
+      <DependentUpon>VendorInfo2Data.xsd</DependentUpon>
+    </None>
+    <None Include="VendorLoginDataSet.xsc">
+      <DependentUpon>VendorLoginDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="VendorLoginDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VendorLoginDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="VendorLoginDataSet.xss">
+      <DependentUpon>VendorLoginDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{2A75196C-D9EB-4129-B803-931327F72D5C}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access">
+      <Guid>{4AFFC9A0-5F99-101B-AF4E-00AA003F0F07}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access.Dao">
+      <Guid>{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}</Guid>
+      <VersionMajor>12</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\obj\Debug\LoginAppForms2.csproj.AssemblyReference.cache
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\obj\Debug\LoginAppForms2.csproj.ResolveComReference.cache
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\obj\Debug\LoginAppForms2.Properties.Resources.resources
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\obj\Debug\LoginAppForms2.SignUp.resources
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\obj\Debug\LoginAppForms2.csproj.GenerateResource.cache
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\obj\Debug\LoginAppForms2.csproj.CoreCompileInputs.cache
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\obj\Debug\LoginAppForms2.Admin.resources
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\obj\Debug\LoginAppForms2.LogIn.resources
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\obj\Debug\LoginAppForms2.NewVendorInfo.resources
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\obj\Debug\LoginAppForms2.VendorInfo.resources
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\bin\Debug\LoginAppForms2.exe.config
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\bin\Debug\LoginAppForms2.exe
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\bin\Debug\LoginAppForms2.pdb
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\obj\Debug\LoginAppForms2.exe
+C:\Users\treyc\source\repos\LoginAppForms2\LoginAppForms2\obj\Debug\LoginAppForms2.pdb
